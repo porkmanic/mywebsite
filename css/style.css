@@ -1,0 +1,157 @@
+body {
+    position: relative;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    margin-left: 1.5rem !important;
+}
+
+a:hover, a.active {
+    border-bottom: 3px solid #ed1616;
+    color: white;
+    text-decoration: none;
+}
+
+.sect {
+    background-size: cover;
+}
+
+.fixed-sect {
+    background-attachment: fixed;
+}
+
+.sectTop {
+    height: 600px;
+    background-image: url("../images/1.jpg");
+    padding: 300px 0 0 0;
+    color: white;
+}
+
+.personal-desc h1 {
+    font-size: 50px;
+}
+
+.personal-desc h5 {
+    margin-top: 50px;
+}
+
+.sectOne {
+    font-weight: bold;
+    padding: 100px 0;
+    color: white;
+    font-size: 20px;
+    height: 500px;
+    background-image: url("../images/2.jpg");
+    position: relative;
+}
+
+.round-img {
+    width: 300px;
+    height: 300px;
+}
+
+.sectTwo {
+    padding: 60px 0;
+    background-image: url("../images/3.jpg");
+}
+
+.work-head {
+    padding-bottom: 50px;
+}
+
+.sectTwo h1 {
+    color: white;
+}
+
+.sectTwo .card {
+    background-color: azure;
+}
+
+.contentOne {
+    padding: 30px 0;
+}
+
+.left-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.out-item {
+    padding: 20px 0;
+}
+
+.ex-item {
+    background: url("../images/ex-list.png") no-repeat;
+    padding: 10px 0 15px 40px;
+}
+
+.time {
+    margin-bottom: 10px;
+}
+
+.time > span {
+    padding: 1px 4px;
+    background-color: rgb(237, 85, 101);
+    color: white;
+    font-size: 19px;
+}
+
+.ex-item .title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.ex-item .desc {
+    font-size: 17px;
+}
+
+.contentTwo {
+    height: 100%;
+    background-color: #191919;
+    color: white;
+    padding: 60px 0;
+}
+
+.contentTwo .head {
+    padding-bottom: 50px;
+}
+
+.contentTwo .content {
+
+}
+
+.bd-footer {
+    padding: 2rem 0;
+    font-size: 85%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.grid-overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: transparent url("../images/grid-50.png");
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
